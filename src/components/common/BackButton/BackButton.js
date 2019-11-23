@@ -1,13 +1,19 @@
 import React from 'react';
 import { IoIosArrowBack } from 'react-icons/io';
-import { Link } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 
-const BackButton = () => (
-  <div>
-    <Link to="/">
+const BackButton = () => {
+  const history = useHistory();
+
+  function handleClick() {
+    history.push('/');
+  }
+
+  return (
+    <button type="button" onClick={handleClick}>
       <IoIosArrowBack />
-    </Link>
-  </div>
-);
+    </button>
+  );
+};
 
 export default BackButton;

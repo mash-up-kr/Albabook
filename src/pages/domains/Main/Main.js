@@ -4,7 +4,7 @@ import Header from '../../../components/Header';
 const Main = () => (
   <div>
     <Header />
-    <h1>메인</h1>
+    <h1>Main</h1>
   </div>
 );
 

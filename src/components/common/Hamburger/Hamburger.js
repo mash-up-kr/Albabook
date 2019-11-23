@@ -10,6 +10,7 @@ const ListButton = styled.div`
   background: purple;
 `;
 
+
 const Hamburger = () => (
   <Link to="/main">
     <ListButton>
