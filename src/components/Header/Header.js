@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Hamburger } from '../common';
+import { Hamburger, BackButton } from '../common';
 
 const HeaderContent = styled.div`
   background: red;
@@ -8,12 +8,13 @@ const HeaderContent = styled.div`
   text-align: center;
 `;
 
-
 const Header = () => (
   <HeaderContent>
     <Hamburger />
     헤더
+    <BackButton />
   </HeaderContent>
+
 );
 
 export default Header;
