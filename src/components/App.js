@@ -1,11 +1,11 @@
-import React, { Component } from 'react'
+import React from 'react';
+import {Header} from 'components/Header';
+const App = () => {
+  return (
+    <div>
+      <Header/>
+    </div>
+  );
+};
 
-export default class App extends Component {
-  render() {
-    return (
-      <div>
-        여기는 App
-      </div>
-    )
-  }
-}
+export default App;
