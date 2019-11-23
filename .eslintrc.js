@@ -23,6 +23,7 @@ module.exports = {
   ],
   rules: {
     "react/jsx-filename-extension": "off",
-    "react/jsx-ident": "off"
+    "react/jsx-ident": "off",
+    "no-console": "off"
   },
 };
