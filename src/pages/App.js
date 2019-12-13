@@ -16,7 +16,7 @@ const App = () => (
         <Link to="/main">Main</Link>
       </li>
       <li>
-        <Link to="/about/test">About</Link>
+        <Link to="/about/test">Aout</Link>
       </li>
     </ul>
     <Switch>
