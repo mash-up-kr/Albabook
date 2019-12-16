@@ -1,23 +1,31 @@
+/* eslint-disable no-tabs */
 import React from 'react';
 import styled from 'styled-components';
+import oc from 'open-color';
 import { Hamburger, BackButton } from '../common';
 
-const HeaderContent = styled.div`
+const Wrapper = styled.div`
+  /* 배치 */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  vertical-align: baseline;
-  background: red;
+  align-items: center; /* 세로 정렬 */
+  /* 색 */
   color: white;
-  /* text-align: center; */
+  height: 5rem;
+	background: ${oc.teal[6]};
+  border-bottom: 1px solid ${oc.teal[8]};
+  /* 폰트 */
+  font-weight: 500;
+  font-size: 1.5rem;
 `;
 
 const Header = () => (
-  <HeaderContent>
+  <Wrapper>
     <Hamburger />
     헤더
     <BackButton />
-  </HeaderContent>
+  </Wrapper>
 
 );
 

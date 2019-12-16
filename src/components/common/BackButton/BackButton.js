@@ -11,7 +11,7 @@ const BackButton = () => {
 
   return (
     <button type="button" onClick={handleClick}>
-      <IoIosArrowBack />
+      <IoIosArrowBack size="5rem" />
     </button>
   );
 };

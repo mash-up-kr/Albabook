@@ -3,18 +3,17 @@ import { IoIosList } from 'react-icons/io';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
-
 const ListButton = styled.div`
-  width: 30px;
-  height: 30px;
-  background: purple;
+  width: 5rem;
+  height: 5rem;
+  color : white;
 `;
 
 
 const Hamburger = () => (
   <Link to="/main">
     <ListButton>
-      <IoIosList />
+      <IoIosList size="5rem" />
     </ListButton>
   </Link>
 
